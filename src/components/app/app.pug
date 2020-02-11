@@ -1,0 +1,4 @@
+h1 Welcome to Yma
+a.feature(repeat='features as feature', href='{{feature.href}}')
+  h2 {{feature.title}}
+  p(press='$update({feature:{title:feature.title,description:new Date()}})') {{feature.description}}
